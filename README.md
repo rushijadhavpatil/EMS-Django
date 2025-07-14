@@ -19,35 +19,36 @@ The **Employee Management System** is a Django-based web application that allows
 Follow the steps below to set up the project locally:
 
 1. **Clone the Repository:**
-
+```
 git clone https://github.com/rushijadhavpatil/EMS-Django.git
+```
 
 2. **Navigate into the project directory:**
-
+```
 cd EMS-Django
-
+```
 
 3. **Create a virtual environment (optional but recommended):**
-
+```
 python3 -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+```
 4. **Install the required dependencies:**
-
+```
 pip install -r requirements.txt
-
+```
 5. **Apply migrations to set up the database:**
-
+```
 python manage.py migrate
-
+```
 6. **Create a superuser for admin access:**
-
+```
 python manage.py createsuperuser
-
+```
 7. **Run the development server:**
-
+```
 python manage.py runserver
-
+```
 8. **Open in Browser:**
 
 Visit [http://localhost:8000](http://localhost:8000)
@@ -81,17 +82,17 @@ We welcome contributions! Follow these steps to contribute:
 
 1. **Fork the repository**
 2. **Create a new branch**:
-
+```
 git checkout -b feature/your-feature-name
-
+```
 3. **Commit your changes**:
-
+```
 git commit -m "Your detailed explanation of your changes."
-
+```
 4. **Push to GitHub**:
-
+```
 git push origin feature/your-feature-name
-
+```
 5. **Open a Pull Request** with a detailed description.
 
 
